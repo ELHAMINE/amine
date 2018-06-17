@@ -1,0 +1,139 @@
+html{
+	margin:0px;
+}
+body
+{  
+    margin:0;
+	padding:0;
+	padding-right: 200px;
+	padding-left: 200px;
+	background-color: #f3f3f3;
+	position:relative;
+	font-family: 'Lato', sans-serif;
+
+}
+.heure
+{
+	position: absolute;
+	top: 10px;
+	left: 220px;
+}
+.link-media
+{ 
+	margin: 0px;	
+    width:30% ; 
+	margin-top:0px;
+	display: block;
+	padding:5px 0px;
+	list-style:none;
+	display:flex;
+    float: right;
+	justify-content: center;
+}
+.media-item
+{	
+	padding-right:4px;
+	filter: grayscale(100%);
+	transition: all .3s; 
+}
+.media-item:hover
+{
+	filter: grayscale(0%);
+}
+/* Add a black background color to the top navigation */
+.topnav 
+{    
+
+	width:100%;
+	margin: 0;
+    text-align: center;
+    background-color: rgba(255,255,255,1);
+    display: flex;
+    height: 0 auto;
+    height: 60px;
+    -webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	width: 150px;
+    float: center;
+    color: black;
+    text-align: center;
+    padding-right: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: MediumSeaGreen;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: MediumSeaGreen;
+    color: white;
+}
+.botton
+{
+	width: 150px;
+	display: block;
+	border-radius: 5px;
+	border: none;
+	background: rgb(131, 193, 31);
+	color: white;
+	text-shadow: 0 2px 1px rgba(50,50,50,.8);
+	font-size: 18px;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.div1
+{
+	background:url('../img/header/header.jpg');
+	width: 100%;
+	height: 700px;
+	-webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+@keyframes slider
+{
+	0% {left: 0;}
+	20% {left: 0;}
+	25% {left: -100%;}
+	45% {left: -100%;}
+	50% {left: -200%;}
+	70% {left: -200%;}
+	75% {left: -300%;}
+	95% {left: -300%;}
+	100% {left: -400%;}
+}
+
+#slider 
+{
+	border: 1px solid black;
+	overflow: hidden;
+	width: 100%;
+}
+
+#slider figure img
+{
+	width: 20%;
+	float: middle;
+}
+
+#slider figure 
+{
+	position: relative;
+	width: 500%;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite;
+}
+
