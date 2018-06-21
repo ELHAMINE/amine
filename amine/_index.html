@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>NEXlab</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/appcss.css">
+</head>
+
+<body>
+	<ul class="link-media">
+		<li class="media-item">
+			<a href="#">
+				<img class="media-image" src="./assets/img/social-media/Suivez-nous-sur-Facebook_social-links.png">
+			</a>
+		</li>
+		<li class="media-item">
+			<a href="#">
+				<img class="media-image" src="./assets/img/social-media/Suivez-nous-sur-Twitter_social-links.png">
+			</a>
+		</li>
+		<li class="media-item">
+			<a href="#">
+				<img class="media-image" src="./assets/img/social-media/Suivez-nous-sur-YouTube_social-links.png">
+			</a>
+		</li>
+		<li class="media-item">
+			<a href="#">
+				<img class="media-image" src="./assets/img/social-media/Suivez-nous-sur-Google-plus_social-links.png">
+			</a>
+		</li>
+		<li class="media-item">
+			<a href="#">
+				<img class="media-image" src="./assets/img/social-media/Suivez-nous-sur-LinkedIn_social-links.png">
+			</a>
+		</li>
+	</ul>
+	<div class="heure">
+		<script>
+			if (document.all || document.getElementById)
+				document.write('<span id="worldclock" style="font:bold 16px Arial;"></span><br>')
+			zone = 0;
+			isitlocal = true;
+			ampm = '';
+			function updateclock(z) {
+				zone = z.options[z.selectedIndex].value;
+				isitlocal = (z.options[0].selected) ? true : false;
+			}
+			function WorldClock() {
+				now = new Date();
+				ofst = now.getTimezoneOffset() / 60;
+				secs = now.getSeconds();
+				sec = -1.57 + Math.PI * secs / 30;
+				mins = now.getMinutes();
+				min = -1.57 + Math.PI * mins / 30;
+				hr = (isitlocal) ? now.getHours() : (now.getHours() + parseInt(ofst)) + parseInt(zone);
+				hrs = -1.575 + Math.PI * hr / 6 + Math.PI * parseInt(now.getMinutes()) / 360;
+				if (hr < 0) hr += 24;
+				if (hr > 23) hr -= 24;
+				ampm = (hr > 11) ? "PM" : "AM";
+				statusampm = ampm.toLowerCase();
+				hr2 = hr;
+				if (hr2 == 0) hr2 = 12;
+				(hr2 < 13) ? hr2 : hr2 %= 12;
+				if (hr2 < 10) hr2 = "0" + hr2
+				var finaltime = hr2 + ':' + ((mins < 10) ? "0" + mins : mins) + ':' + ((secs < 10) ? "0" + secs : secs) + ' ' + statusampm;
+				if (document.all)
+					worldclock.innerHTML = finaltime
+				else if (document.getElementById)
+					document.getElementById("worldclock").innerHTML = finaltime
+				else if (document.layers) {
+					document.worldclockns.document.worldclockns2.document.write(finaltime)
+					document.worldclockns.document.worldclockns2.document.close()
+				}
+				setTimeout('WorldClock()', 1000);
+			}
+			window.onload = WorldClock
+//-->
+		</script>
+		<!--Place holder for NS4 only-->
+		<ilayer id="worldclockns" height=35>
+			<layer id="worldclockns2" height=45 left=0 top=0 style="font:bold 16px Arial; "></layer>
+		</ilayer>
+	</div>
+
+	<div class="topnav">
+		<a href="">
+			<img src="./assets/img/logo.png">
+		</a>
+		<a class="active" href="#home">Home</a>
+		<a href="#news">News</a>
+		<a href="#contact">Contact us</a>
+		<a href="#about">About us</a>
+		<a href=""></a>
+		<button class="botton">
+			<a class="b" style="color: white; " href="./login.php"> Sign Up</a>
+		</button>
+		<a href="./signin.php" style="background-color: #f3f3f3">
+			<span class="login">Log In</span>
+		</a>
+	</div>
+
+	<div class="div1">
+
+
+	</div>
+
+	<div class="div2">
+
+	</div>
+
+</body>
+
+</html>

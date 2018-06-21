@@ -1,0 +1,53 @@
+.row {
+    position: relative;
+    display: flex;
+}
+
+.row .col-1 {
+    width: 8.33333%;
+}
+
+.row .col-2 {
+    width: calc(8.33333% * 2);
+}
+
+.row .col-3 {
+    width: calc(8.33333% * 3);
+}
+
+.row .col-4 {
+    width: calc(8.33333% * 4);
+}
+
+.row .col-5 {
+    width: calc(8.33333% * 5);
+}
+
+.row .col-6 {
+    width: calc(8.33333% * 6);
+}
+
+
+.row .col-7 {
+    width: calc(8.33333% * 7);
+}
+
+.row .col-8 {
+    width: calc(8.33333% * 8);
+}
+
+.row .col-9 {
+    width: calc(8.33333% * 9);
+}
+
+.row .col-10 {
+    width: calc(8.33333% * 10);
+}
+
+.row .col-11 {
+    width: calc(8.33333% * 11);
+}
+
+.row .col-12 {
+    width: 100%;
+}

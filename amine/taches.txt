@@ -1,0 +1,13 @@
+Les taches dyal admin:
+[  ]Accepti les demandes d'iscription
+[  ]I3raf ch7al kin dyal les projets o les clients
+[  ]I9ed i3raf les factures.
+Admin - client :
+[  ]I9ed issuprimih
+[  ]I9ed issefer lih message f gmail 
+[  ]I9ed itwassel b message mn 3and lclient f gmail
+[  ]I9ed ichof les projets li and kola client
+Admin - projet :
+[  ]I9ed i creer les sous projets 
+[  ]I9ed i3raf les projets li kaynin
+[  ]I9ed i3raf ch7al ba9i 5ass f kola projet bach ikml

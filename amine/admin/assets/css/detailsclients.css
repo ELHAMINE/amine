@@ -1,0 +1,65 @@
+.form {
+    width: 100%;
+}
+
+.list {
+    list-style-type: none;
+}
+
+
+.list a {
+    display: block;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.list li:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.list a:hover {
+    background-color: #666;
+}
+
+.projet {
+    border-bottom: 1px dashed gray;
+}
+
+.projet label {
+    display: block;
+    padding: 5px 0;
+}
+
+table label, table a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.long-text {
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+.long-text label {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    cursor: pointer;
+    font-weight: normal;
+    color: #3232ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #cfbfbf;
+}
+
+.row > div {
+    padding: 5px;
+}

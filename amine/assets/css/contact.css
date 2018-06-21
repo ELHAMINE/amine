@@ -1,0 +1,122 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    background:url('../img/login/bear-business-computer-461497.jpg');
+	background-size: cover;
+    font-family: sans-serif;
+}
+
+.nav
+{
+  position: fixed;
+  top:0;
+  left: 0;
+  margin:0;
+  padding:0;
+  width: 100%;
+  height:80px;
+  z-index: 10000;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  padding-right: 30px;
+  display: inline-block;
+  font-family: 'Merriweather Sans', sans-serif;
+ font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.contact-title
+{
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    animation: text 3s 1;
+}
+
+.contact-title h1{
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.contact-title h1{
+    font-size: 32px;
+}
+form
+{
+    margin-top: 5%;
+    transition: all 4s ease-in-out;
+}
+.form-control
+{
+    width: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+input
+{
+    height: 45px;
+}
+
+.submit{
+    background: #1ace56b4;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.submit:hover{
+    background-color: #1aaf2b5f;
+    cursor: pointer;
+}
+
+@keyframes text 
+{
+    0%{
+    color:black;
+    }
+
+    30%{
+        letter-spacing: 3px;
+        margin-bottom: -100px;
+    }
+}
