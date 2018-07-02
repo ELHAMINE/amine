@@ -1,0 +1,25 @@
+.wad
+{
+	margin-top: 100px;
+	background: url('../img/wwd/xweb-application-development.png.pagespeed.ic.NH1e09nZtT.jpg')
+}
+.web,web1
+{
+	border: springgreen 2px solid;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px;
+	background: rgb(162, 158, 162);
+	font-size: 25px;
+	text-align: center;
+}
+.wad2
+{
+	margin-top: 100px;
+	background: url('../img/wwd/xUX-brighter.png.pagespeed.ic.pv1MxJ8Fj4.jpg') ;
+}
+
+.wad1
+{
+	margin-top: 100px;
+	background: url('../img/wwd/xweb-design-development.png.pagespeed.ic.SUIzbsgXtZ.jpg') ;
+}

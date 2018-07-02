@@ -105,7 +105,7 @@ if($idProjet != '')
                             <td><?= $livrable['date_debut'] ?></td>
                             <td><?= $livrable['date_fin'] ?></td>
                             <td><?= $livrable['montant'] ?></td>
-                            <td><a href="?idProjet=<?= $livrable['id_projet'] ?>&id_liverable=<?= $livrable['id_liverable'] ?>&paye=<?= $livrable['paye'] ?>"><?= $livrable['paye'] == '1' ? 'Non payé' : 'Payer' ?></a></td>
+                            <td><a href="?idProjet=<?= $livrable['id_projet'] ?>&id_liverable=<?= $livrable['id_liverable'] ?>&paye=<?= $livrable['paye'] ?>"><?= $livrable['paye'] == '1' ? 'payé' : 'Payer' ?></a></td>
                         </tr>
                     <?php
                     endforeach;

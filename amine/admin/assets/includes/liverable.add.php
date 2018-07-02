@@ -6,8 +6,8 @@ $dateFin = $_POST['dateFin'];
 $montant = $_POST['montant'];
 
 $database->nonQuery('INSERT INTO liverable VALUES (NULL, ?, ?, ?, ?, ?, false)', [
-    $idProjet,
     $numero,
+    $idProjet,
     $dateDebut,
     $dateFin,
     $montant

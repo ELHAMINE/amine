@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Page Title</title>
+	<title>NEXLAB</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/css/grid.css" />
 	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
@@ -18,7 +18,7 @@
         <li class="services"><a href="services.php">Services</a></li>
         <li class="connexion"><a href="signin.php">Connexion</a></li>
 		<li class="Inscription"><a href="signup.php">Inscription</a></li>
-		<li class="contact"><a href="contacter.html">Contacter nous</a></li>
+		<li class="contact"><a href="contacter.php">Contacter nous</a></li>
       </ul>
     </div>
   </header>
@@ -27,7 +27,7 @@
 				<div class="nex-hello">
 					<div class="row">
 						<div class="col-4">
-							<span class="image"><img src="./assets/img/logo2.png" alt="nexlab" /></span>
+							<span class="image"><img src="./assets/img/logo5.png" alt="nexlab" /></span>
 						</div>
 						<div class="col-8">
 							<header>
@@ -54,7 +54,7 @@
 Communicraft est spécialisé dans la conception et le développement de logiciels
 facilite la livraison de fonctionnalités ou d'informations sur Internet.
 																				</p>
-																				<a class="svr" href="">Savoire plus...</a>
+																				<a class="svr" href="services.php">Savoire plus...</a>
 														 </div>
 														 <div class="col-4"  style="background:url('./assets/img/wwd/xweb-design-development.png.pagespeed.ic.SUIzbsgXtZ.jpg');background-size: cover;
     background-position: center;">
@@ -63,22 +63,22 @@ facilite la livraison de fonctionnalités ou d'informations sur Internet.
 																				Les entreprises et les organisations qui 
 																				souhaitent se démarquer de la concurrence et offrir un fort impact sur leur site Web choisissent de travailler avec NEXLAB.
 																				</p>
-																				<a class="svr" href="">Savoire plus...</a>
+																				<a class="svr" href="services.php">Savoire plus...</a>
 														 </div>
 														 <div class="col-4" style="background:url('./assets/img/wwd/xUX-brighter.png.pagespeed.ic.pv1MxJ8Fj4.jpg	');background-size: cover;
     background-position: left">
 																				 <h4  style="color:black;">CONCEPTION DE SITES WEB SUR MESURE</h4>
-																				 <p class="wwdp" style="color:red;">Les entreprises et les organisations qui souhaitent se démarquer
+																				 <p class="wwdp" style="color:black; font-weight:bold;">Les entreprises et les organisations qui souhaitent se démarquer
 																						de la concurrence et offrir un fort impact sur leur site Web choisissent de travailler avec Communicraft.</p>
-																						<a class="svr" href="">Savoire plus...</a>
+																						<a class="svr" href="services.php">Savoire plus...</a>
 														 </div>
 										 </div>
 										 
 		       </div>
 			   <div class="les3 col4">		
-					<a href="#"><img  class="photo1 photo11" title="CONCEPTION D'EXPÉRIENCE UTILISATEUR - DESIGN UX" src="./assets/img/les3/272396-P7N89Y-248.jpg " style="width:220px; height:300px;"></a>	
-					<a href="#"><img  class="photo1 photo12" title="USER EXPERIENCE DESIGN - UX DESIGN" src="./assets/img/les3/icones-de-programmation-des-langues_24877-768.jpg" style="width:220px; height:300px;"></a>
-					<a href="#"><img  class="photo1 photo13"  title="DÉVELOPPEMENT D'APPLICATIONS WEB" src="./assets/img/les3/OJ91BD0.jpg" style="width:220px; height:300px;"></a>
+					<a href="services.php"><img  class="photo1 photo11" title="CONCEPTION D'EXPÉRIENCE UTILISATEUR - DESIGN UX" src="./assets/img/les3/272396-P7N89Y-248.jpg " style="width:220px; height:300px;"></a>	
+					<a href="services.php"><img  class="photo1 photo12" title="USER EXPERIENCE DESIGN - UX DESIGN" src="./assets/img/les3/icones-de-programmation-des-langues_24877-768.jpg" style="width:220px; height:300px;"></a>
+					<a href="services.php"><img  class="photo1 photo13"  title="DÉVELOPPEMENT D'APPLICATIONS WEB" src="./assets/img/les3/OJ91BD0.jpg" style="width:220px; height:300px;"></a>
 			    </div>
 	    </div>
 	</article>
